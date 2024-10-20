@@ -36,7 +36,8 @@
    ```bash
    python script_xss.py
    ```
-2. Dado a que el script, a parte de devolver el exito code 1 cuando encuentra una vulnerbilidad, imprime un texto, como se puede ver a continuación:
+2. Dado a que el script, a parte de devolver el exit code 1 cuando encuentra una vulnerbilidad, imprime un texto, como se puede ver a continuación, en caso de no encontrar se devuelve el exit code 0 y también se imprime el mensaje correspondiente a la situación.
+   
 ![alt text](image.png)
 
 
