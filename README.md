@@ -2,7 +2,7 @@
 
 ## Pre-requisitos
 
-1. Verificar que la librería `requests` esté instalada. En caso de no estarlo, instalarla ejecutando el siguiente comando:
+1. Verificar tener pyrhon3 y la librería `requests` instalada. En caso de no tenerlo, instalarlo y luego instalar la librería ejecutando el siguiente comando:
    ```bash
    pip install requests
    ```
@@ -26,7 +26,7 @@
 3. Ejecutar el **script_sql_injection.py** corriendo el siguiente comando:
 
    ```bash
-   python script_sql_injection.py
+   python3 script_sql_injection.py
    ```
 
 ### Script 2 : Cross Site Scripting (XSS)
@@ -34,7 +34,7 @@
 1. Ejecutar el **script_xss.py** corriendo el siguiente comando:
 
    ```bash
-   python script_xss.py
+   python3 script_xss.py
    ```
 2. Dado a que el script, a parte de devolver el exit code 1 cuando encuentra una vulnerbilidad, imprime un texto, como se puede ver a continuación, en caso de no encontrar se devuelve el exit code 0 y también se imprime el mensaje correspondiente a la situación.
    
